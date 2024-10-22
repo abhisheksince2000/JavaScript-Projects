@@ -83,3 +83,15 @@ function calculateBMI() {
 }
 
 ```
+
+## Project 3
+solution code
+```javscript
+const clock = document.getElementsByClassName('digi')[0]; // Access the first element with class 'digi'
+        setInterval(function(){
+            let date = new Date();
+            clock.innerHTML = date.toLocaleTimeString(); // Use 'clock' instead of 'digi'
+
+        }, 1000);
+
+```
